@@ -3,7 +3,7 @@ README.md: guessinggame.sh
 	
 	echo "# Guessing Game" > README.md
 	echo "Date: $$(date +%D)" >> README.md
-	echo
+	echo "\n"
 	echo "Time: $$(date +%T)" >> README.md
-	echo
+	echo "\n"
 	echo "Lines: $$(cat guessinggame.sh | wc -l)" >> README.md
